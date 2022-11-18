@@ -216,8 +216,12 @@ nav,
 }
 
 .advatnages-icons {
-	padding: 25px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
 	margin-bottom: 30px;
+	height: 120px;
 
 	background-color: #f5f4fa;
 	border-radius: 4px;
@@ -332,7 +336,12 @@ nav,
 }
 
 .clients-item {
-	padding: 16px 32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 170px;
+	height: 92px;
 
 	color: var(--social-icon-color);
 	border: 1px solid var(--social-icon-color);
@@ -405,6 +414,10 @@ footer {
 
 footer .team-social-link {
 	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.icon.footer {
+	fill: var(--main-background-color);
 }
 
 /* Portfolio */
